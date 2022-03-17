@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\User\Desktop\7z_hack\7z_hack\7zhack\Source.c(9,7): warning C4101: result: неиспользованная локальная переменная
+  LINK : не найден или не выполнена сборка C:\Users\User\Desktop\7z_hack\7z_hack\x64\Debug\7zhack.exe при последней инкрементной компоновке; выполняется полная компоновка
+  7zhack.vcxproj -> C:\Users\User\Desktop\7z_hack\7z_hack\x64\Debug\7zhack.exe
