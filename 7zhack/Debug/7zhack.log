@@ -1,3 +1,0 @@
-﻿  Source.c
-C:\Users\User\source\repos\7zhack\7zhack\Source.c(4,8): warning C4013: system: нет определения; предполагается "extern" с возвратом типа "int"
-  7zhack.vcxproj -> C:\Users\User\source\repos\7zhack\Debug\7zhack.exe
