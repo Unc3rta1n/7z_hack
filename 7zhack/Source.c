@@ -21,33 +21,32 @@ int main(void)
 				for (int l = 1; l <= 9; l++)
 				{
 					c[3] = l;
-						c[4] = 1;
-						c[5] = 9;
-						c[6] = 9;
-						c[7] = 1;
-						char start[10] = "secret.7z";
-						
-						char command[100]= "7z e -p";
-						int p = 0;
-						for (int i = 7; i <=92; i++)
-						{
-							command[i] = c[p]+'0';
-							
-							p++;
-							
-						}
-						command[15] = ' ';
-						command[16] = '1';
-						command[17] = '.';
-						command[18] = '7';
-						command[19] = 'z';
-						command[20] = '\0';
-						system(command);
-						
+					c[4] = 1;
+					c[5] = 9;
+					c[6] = 9;
+					c[7] = 1;
+
+
+					char command[100] = "7z e -p";
+					int p = 0;
+					for (int i = 7; i <= 14; i++)
+					{
+						command[i] = c[p] + '0';
+
+						p++;
+
+					}
+					command[15] = ' ';
+					command[16] = '1';
+					command[17] = '.';
+					command[18] = '7';
+					command[19] = 'z';
+					command[20] = '\0';
+					system(command);
+
 				}
 			}
 		}
 	}
-	
+
 }
-	
